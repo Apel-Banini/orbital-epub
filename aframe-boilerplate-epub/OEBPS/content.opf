@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0">
+  <metadata>
+	<title>AFrame Scene ePub</title>
+	<creator>Your Name</creator>
+	<language>en</language>
+  </metadata>
+  <manifest>
+	<item id="aframe-scene" href="aframe-scene.html" media-type="application/xhtml+xml"/>
+	<item id="toc" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="toc">
+	<itemref idref="aframe-scene"/>
+  </spine>
+</package>
